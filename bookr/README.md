@@ -78,6 +78,11 @@ By default, the server will run at `http://127.0.0.1:8000/`.
 
 Access the web application by visiting `http://127.0.0.1:8000/` in your web browser.
 
+## DB Migrations
+
+* `python manage.py makemigrations reviews`
+* `python manage.py migrate reviews`
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
